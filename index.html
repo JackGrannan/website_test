@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Hi </title>
+  </head>
+  <body>
+
+    <!-- LOAD JQUERY FIRST -->
+    <script
+  src="https://code.jquery.com/jquery-2.1.3.min.js"
+  integrity="sha256-ivk71nXhz9nsyFDoYoGf2sbjrR9ddh+XDkCcfZxjvcM="
+  crossorigin="anonymous"></script>
+    <!-- REACT COMPILED EVERYTHING BELOW -->
+    <script type="text/javascript" src="/dist/dev/components.js"></script>
+    <!-- ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ -->
+
+    <div id="app"></div>
+   <script>components.render($('#app'), components.Clock)</script>
+
+  </body>
+  <span> This is root index. Yeah </span>
+</html>
