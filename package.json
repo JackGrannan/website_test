@@ -18,6 +18,7 @@
     "react-bootstrap": "^0.32.1",
     "react-dom": "^16.3.2",
     "react-dropzone": "^4.2.13",
+    "terser": "^3.14.1",
     "uglifyjs-webpack-plugin": "^1.2.5",
     "webpack": "^4.6.0",
     "webpack-cli": "^2.1.2"
@@ -37,5 +38,18 @@
   },
   "devDependencies": {
     "babel-plugin-transform-class-properties": "^6.24.1"
-  }
+  },
+  "description": "instructions for setting up a website in React and the testing instructions",
+  "main": "webpack.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JackGrannan/website_test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JackGrannan/website_test/issues"
+  },
+  "homepage": "https://github.com/JackGrannan/website_test#readme"
 }

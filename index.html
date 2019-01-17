@@ -2,6 +2,17 @@
 <html>
   <head>
     <title> Hi </title>
+    <style>
+      body {
+          background-color: #93B874;
+      }
+      h1 {
+          background-color: #00b33c;
+      }
+      p {
+          background-color: #FFFFFF);
+      }
+      </style>
   </head>
   <body>
 
@@ -14,9 +25,14 @@
     <script type="text/javascript" src="/dist/dev/components.js"></script>
     <!-- ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ -->
 
-    <div id="app"></div>
-   <script>components.render($('#app'), components.Clock)</script>
+    <div id="roboky"></div>
+
+   <script>components.render($('#roboky'), components.RoboKy)</script>
+
+   <!-- <script src="app.js"></script>
+   <script src="jquery.box2d.min.js"></script>
+   <script src="jquery-easing.min.js"></script> -->
 
   </body>
-  <span> This is root index. Yeah </span>
+  <span> This is root index. Yeah! </span>
 </html>

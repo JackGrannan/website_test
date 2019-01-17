@@ -32,9 +32,4 @@ const render = function(el, comp, props)
 
 export { render };
 export { default as Clock } from './components/clock.jsx';
-//export { default as AdminLocationContainer } from './components/admin/locationContainer.jsx';
-//export { InfoCenter, AdminLocation } from './components/admin/location.jsx';
-//export { default as SiteLogo } from './components/admin/site/siteLogo.jsx';
-//export { default as togglePref } from './components/admin/site/togglePref.jsx';
-//export { default as AdminUsers } from './components/admin/users.jsx';
-//export { default as LocationHierarchy } from './components/admin/location/misc/locationHierarchy.jsx';
+export { default as RoboKy } from './characters/roboKy.jsx'
