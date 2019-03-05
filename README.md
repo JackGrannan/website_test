@@ -12,7 +12,7 @@ $ sudo apt-get install vim sudo git make gcc g++ curl
 
 $ git clone https://github.com/JackGrannan/website_test.git
 
-$curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
+$ curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
 
 $ sudo apt-get install -y nodejs
 
