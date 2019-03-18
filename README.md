@@ -18,6 +18,8 @@ $ sudo apt-get install -y nodejs
 
 $ npm install
 
+$ npm install nodemon --save
+
 TO RUN SERVER:
 
 cd src (react folder)
